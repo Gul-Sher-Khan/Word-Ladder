@@ -81,7 +81,6 @@ def heuristic(a, b):
     return count
 
 def a_star(graph, start, end):
-    """A* Search using f(n) = g(n) + h(n) where h(n) is the letter-difference heuristic."""
     frontier = []
     g = 0
     f = g + heuristic(start, end)
