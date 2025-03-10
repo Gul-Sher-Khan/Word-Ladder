@@ -76,7 +76,7 @@ def heuristic(a, b):
 
     for i in range(len(a)):
         if a[i] != b[i]:
-            count += 1
+            count *= 5
 
     return count
 
